@@ -9,11 +9,82 @@
 <body>
         <nav>
             <h2 class="logo">Talent <span>Titans</span></h2>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact Us</a></li>
+            <ul class="nav-links">
+                <li class="nav-item"><a href="index.html">Home</a></li>
+                <li class="nav-item"><a href="about.html">About Us</a></li>
+                <li class="nav-item"><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
+        <header class="hero-section">
+                <h1 id="main-title">Welcome to Talent Titans Blog</h1>
+                <h1 id="main-title">The Future of Web Development</h1>
+                <p class="hero-subtitle">Empowering Talent, Unleashing Potential</p>
+        </header>
+        <section class="form-section">
+            <h2>Add to the Feed</h2>
+            <form id="blog-form">
+                <div class="form-group">
+                    <label for="post-title">Article Title</label>
+                    <input type="text" id="post-title" required placeholder="e.g., Clean Code Mastery">
+                </div>
+                <div class="form-group">
+                    <label for="post-content">Body Content</label>
+                    <textarea id="post-content" rows="3" required placeholder="Share your insights..."></textarea>
+                </div>
+                <button type="submit">Publish Story</button>
+            </form>
+        </section>
+        <section class="blog-posts">
+            <div class="blog-posts-container">
+                <div class="blog-post">
+                    <div>
+                        <img src="https://via.placeholder.com/600x300" alt="Blog Post Image">
+                    </div>
+                    <span class="post-category">Fundamentals</span>
+                    <h2 id="red">A is for Architectur</h2>
+                    <p>Great web projects start with structural integrity. By implementing semantic HTML5 layouts, robust CSS variables, and zero-null JavaScript pathways, developers can craft user interfaces that scale seamlessly across device profiles.</p>
+                </div>
+                <div class="blog-post">
+                    <div>
+                        <img src="https://via.placeholder.com/600x300" alt="Blog Post Image">
+                    </div>
+                    <span class="post-category">Industry Shifts</span>
+                    <h2>The Evolution of Modern Engines</h2>
+                    <p>Web ecosystems are shifting rapidly. Browsers are no longer simple document viewers; they are powerful runtime execution environments capable of processing rich logic, tracking real-time interactive widgets, and maintaining robust client-side storage structures.</p>
+                    <h3>Why JavaScript Still Rules</h3>
+                    <p>Despite the emergence of compiled alternatives, the Document Object Model (DOM) remains the canvas of the web. Mastering standard web APIs empowers developmental scrum units to assemble platforms without relying on heavy third-party framework wrappers.</p>
+                </div>
+            </div>
+        </section>
+            
+
+        <footer>
+            <div class="footer-top">
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h3>Talent <span style="color: gold;">Titans</span></h3>
+                    <p>Empowering Talent, Unleashing Potential</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Developer Info</h3>
+                    <ul>
+                        <li>Nagarajan U</li>
+                        <li>Ramkumar</li>
+                        <li>Vicky</li>
+                        <li>Gowtham</li>
+                        <li>Santhosh</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Get in Touch</h3>
+                    <p>For support or assessment feedback:</p>
+                    <a href="mailto:nagarajan17u@gmail.com">Talent_Titans@Scrum_Blog.test</a> 
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Talent Titans. All rights reserved.</p>
+            </div>
+            </div>
+        </footer>
 </body>
 </html>
