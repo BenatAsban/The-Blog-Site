@@ -351,3 +351,17 @@ img{
     background-color: #5c1d1d; 
     transform: translateY(-2px);     
 }
+
+.blog-post img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.team-member img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
